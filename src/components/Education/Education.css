@@ -1,0 +1,36 @@
+body {
+    background-color: lightgray;
+}
+.education {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    border: 1px solid #666464;
+    margin: 10px;  
+    color: #000000;
+}
+.educationRow {
+    display: flex;
+    flex-direction: row;
+}
+.imgCol {
+    flex: 1;
+    margin-right: 10px;
+}
+.Edu {
+    width: 100%;
+    height: 100%;  
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #666464;    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+.textCol {
+    flex: 2;
+    margin-left: 10px;
+    font-size: 22px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #666464;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}

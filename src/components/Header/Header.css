@@ -1,0 +1,59 @@
+.Header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 20px;
+    height: 60px;
+    background-color: #1d4e1f;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    border: 1px solid #666464;
+    margin: 10px;
+}
+body {
+    background-color: lightgray;
+}    
+button{
+    background-color: #4CAF50;
+    border: 1px solid black;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: #1d4e1f;
+    color: rgb(51, 48, 48);
+    cursor: pointer;
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+    color: #817e7e;
+}
+.CV {
+    position: relative;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 1px;
+}
+.CV:hover {
+    background-color: #FF0000;
+    color: black;
+}
+.disabled {
+    pointer-events: none;
+    opacity: 0.5;
+}
